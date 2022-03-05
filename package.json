@@ -1,0 +1,22 @@
+{
+  "name": "flareline.com",
+  "version": "1.0.0",
+  "description": "✨ Resources used to host my personal website and blog.",
+  "scripts": {
+		"build": "tsc && rm -rf dist && ",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlareLine/flareline.com.git"
+  },
+  "author": "Ethan Wright <ethan@flareline.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlareLine/flareline.com/issues"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.15.0",
+    "typescript": "^4.6.2"
+  }
+}
